@@ -43,7 +43,8 @@ class ops_condicioanais2:
 
 pagou_ingresso = True
 maior_de_dezoito = False
-if pagou_ingresso or maior_de_dezoito:
+if pagou_ingresso or maior_de_dezoito: #or = ou vai comprar se uma é verdadeira ok
+                                    #and = e  as duas precisam ser verdadeiras 
     print('Pode entar')
 else:
     print('Não pode entrar')
