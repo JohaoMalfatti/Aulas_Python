@@ -29,7 +29,6 @@ class sorteio_numero2:
             else:
                 print('Você errou, Seu número é maior que o sorteado,'' tente novamente')
                 print('Tentativa %d de %d' % (tentativas, chances))
-
             if tentativas == 4:
                 print('Última tentativa')
             elif tentativas == 5:
